@@ -5,3 +5,8 @@
   background-size: cover;
   height: 380px;
 }
+
+.for-flex {
+  display: flex;    
+  overflow-x: auto; 
+}
