@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import FooterComponent from './footer'
 import Navigation from './navigation'
 
 export default function Layout({ children }) {
@@ -18,6 +19,9 @@ export default function Layout({ children }) {
             children
         }
       </main>
+      <footer>
+        <FooterComponent/>
+      </footer>
         
     </div>
   )

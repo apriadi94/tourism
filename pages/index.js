@@ -5,6 +5,7 @@ import CircleList from "../component/beranda/circleList"
 import VideoList from "../component/beranda/videoList"
 import TextPromosi from "../component/beranda/textPromosi"
 import ListDestinasi from "../component/beranda/listDestinasi"
+import Panduan from "../component/beranda/panduan"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
             <VideoList/>
             <TextPromosi/>
             <ListDestinasi/>
+            <Panduan/>
           </div>
         </div>
     </Layout>
