@@ -7,33 +7,33 @@ const PilihanCard = () => {
     const imageList = [
         {
             id: 1,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2021/09/rumah-betang-buntoi-300x176.jpg',
-            title: 'Rumah Batang Buntoi'
+            url: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/2d/70/63/foto-dari-seberang-sungai.jpg?w=400&h=300&s=1',
+            title: 'Museum Wasaka'
         },
         {
             id: 2,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2021/09/cemantan-1-1-300x169.jpg',
-            title: 'Pantai Cemantan'
+            url: 'https://kalteng.kemenag.go.id/file/fotoberita/114386.jpg',
+            title: 'Topeng Sababuka'
         },
         {
             id: 3,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2018/09/Pantai-Cemantan-Bahaur-300x169.jpg',
-            title: 'Pantai Cemantan Bahaur'
+            url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXNmd-Iut4zvRfNXO11VwBgO8Li0AwJOzohw&usqp=CAU',
+            title: 'Steak And Shake'
         },
         {
             id: 4,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2021/09/rumah-betang-buntoi-300x176.jpg',
-            title: 'Pantai Cemantan'
+            url: 'https://i.ytimg.com/vi/kNNaoRvYX40/maxresdefault.jpg',
+            title: 'Pawai Budaya'
         },
         {
             id: 5,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2021/09/rumah-betang-buntoi-300x176.jpg',
-            title: 'Pantai Cemantan'
+            url: 'https://cdn0-production-images-kly.akamaized.net/zjDBoEPLJeZwCHmK2ccB7gZQ9fg=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1239022/original/024023800_1463699217-teater1.JPG',
+            title: 'Seni Teater'
         },
         {
             id: 6,
-            url: 'http://pulangpisautourism.com/wp-content/uploads/2021/09/rumah-betang-buntoi-300x176.jpg',
-            title: 'Pantai Cemantan'
+            url: 'https://img.qraved.co/v2/image/data/2017/04/28/sampireun_cover-640x427-m.jpg',
+            title: 'Warung Tepi Danau'
         },        
         {
             id: 7,

@@ -4,11 +4,11 @@ import 'react-image-lightbox/style.css';
 
 const ListDestinasi2 = () => {
     const imageLists = [
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Solo-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Yogyakarta-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Lake-Toba-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Labuan-Bajo-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Lombok-Thumbnail-v1.jpg"
+        "https://assets.indozone.news/local/5dd352fb23fcc.jpg",
+        "https://lh3.googleusercontent.com/proxy/F1RuL-NP4xwItfAf9vm3GUfwpS7HtwK1AaO--ZZtCJ-wbHEzL5V5D30rsAeqGup6D26dynp0eIMQEi6jfRYq4iH-Vqqea98uCnkpENHghOoTzKdy8stmL86dfq_ib_yzBevTrnG9bO_RGatZRY_V",
+        "https://upload.wikimedia.org/wikipedia/id/4/4f/Menara-masjid-agung-cilacap.jpg",
+        "https://infopublik.id/assets/upload/headline//20160424020002.jpg",
+        "http://bengkayangkab.go.id/wp-content/uploads/2019/06/ggggg.jpeg",
     ];
 
     const [photo, setPhoto] = useState({

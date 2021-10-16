@@ -4,11 +4,11 @@ import 'react-image-lightbox/style.css';
 
 const ListDestinasi2 = () => {
     const imageLists = [
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Solo-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Yogyakarta-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Lake-Toba-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Labuan-Bajo-Thumbnail-v1.jpg",
-        "https://www.indonesia.travel/content/dam/indtravelrevamp/home-revamp/Lombok-Thumbnail-v1.jpg"
+        "https://i.pinimg.com/564x/37/d9/52/37d952c9e2e0db7a7b6847f98556b00b.jpg",
+        "https://i.pinimg.com/564x/2b/87/5a/2b875a470c9bb09140fb1fa49d126e36.jpg",
+        "https://twolovesstudio.com/wp-content/uploads/2019/05/Professional-Food-Photography-Portfolio-Must-Haves-4-768x1151.jpg",
+        "http://jasafotojakarta.com/wp-content/uploads/DFCADA8F-0BE1-4E57-8DF1-9DFCB9A62D17.jpeg",
+        "http://jasafotojakarta.com/wp-content/uploads/D886B707-208B-4EFC-8024-DAE4544C9F07.jpeg"
     ];
 
     const [photo, setPhoto] = useState({

@@ -40,6 +40,7 @@ const Navigation = () => {
 
                   <a
                     href="#"
+                    onClick={() => router.push('/budaya')}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     BUDAYA
@@ -47,6 +48,7 @@ const Navigation = () => {
 
                   <a
                     href="#"
+                    onClick={() => router.push('/kuliner')}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     KULINER
