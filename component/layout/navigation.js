@@ -1,8 +1,11 @@
 
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
+import { useRouter } from 'next/router'
 
 const Navigation = () => {
+  const router = useRouter()
+  const { asPath } = useRouter()
     const [isOpen, setIsOpen] = useState(false);
     return(
         <div>
@@ -21,6 +24,7 @@ const Navigation = () => {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="#"
+                    onClick={() => router.push('/')}
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     HOME
@@ -28,6 +32,7 @@ const Navigation = () => {
 
                   <a
                     href="#"
+                    onClick={() => router.push('/destinasi')}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     DESTINASI
@@ -154,12 +159,6 @@ const Navigation = () => {
           )}
         </Transition>
       </nav>
-
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Selamat Datang di Dinas Pariwisata</h1>
-        </div>
-      </header>
       
     </div>
     )

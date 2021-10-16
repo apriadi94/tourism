@@ -1,6 +1,6 @@
 const FooterComponent = () => {
     return(
-        <div className="flex flex-col justify-items-center items-center h-60" style={{ backgroundColor: "#091426" }}>
+        <div className="flex flex-col justify-items-center items-center h-60 w-full" style={{ backgroundColor: "#091426" }}>
            
             <div className="mt-10">
                     <p className="text-white text-5xl">Visit Our Website</p>

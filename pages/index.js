@@ -9,7 +9,7 @@ import Panduan from "../component/beranda/panduan"
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout header="Selamat Datang di Dinas Pariwisata">
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-4 sm:px-0">
             <div className="border-4 border-gray-200 rounded-lg h-96">
